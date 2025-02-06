@@ -151,7 +151,7 @@ let gameState = "PLAYING";
 
 function preload() {
 
-  partyConnect("wss://p5js-spaceman-server-29f6636dfb6c.herokuapp.com", "jkh-MultiPlayerPoc");
+  partyConnect("wss://p5js-spaceman-server-29f6636dfb6c.herokuapp.com", "jkv-MultiPlayerPocOOP");
   me = partyLoadMyShared({ playerName: "observer" });
   guests = partyLoadGuestShareds();
 
